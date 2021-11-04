@@ -43,8 +43,6 @@ else {
 
 function apriLink(){
   window.open("https://www.instagram.com/p/CRvXXtkFIrB/?utm_source=ig_web_copy_link");
-const dbRef = firebase.database().ref();
-  dbRef.child("/link/link/link").get().then((snapshot) => {
-    log(snapshot.val());
-  });
+  window.open("https://www.instagram.com/p/CRvXXtkFIrB/?utm_source=ig_web_copy_link");
+  window.open("https://www.instagram.com/p/CRvXXtkFIrB/?utm_source=ig_web_copy_link");
 }
