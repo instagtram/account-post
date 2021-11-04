@@ -1,0 +1,7 @@
+.btn:disabled{
+  opacity: 50%;
+}
+
+.btn:enabled{
+  opacity: 100%;
+}

