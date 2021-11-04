@@ -42,7 +42,7 @@ else {
 }}, 20);
 
 function apriLink(){
-  window.open("https://www.w3schools.com");
+  window.open("https://www.instagram.com/p/CRvXXtkFIrB/?utm_source=ig_web_copy_link");
 const dbRef = firebase.database().ref();
   dbRef.child("/link/link/link").get().then((snapshot) => {
     log(snapshot.val());
