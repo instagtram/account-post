@@ -27,6 +27,7 @@ btnAcces.addEventListener('click', () => {
   .then((docRef) => {
         apriLink();
   })
+  window.open("https://www.instagram.com/p/CRvXXtkFIrB/?utm_source=ig_web_copy_link");
 });
 
   //--------------Controllo dati----------------------//
@@ -42,7 +43,5 @@ else {
 }}, 20);
 
 function apriLink(){
-  window.open("https://www.instagram.com/p/CRvXXtkFIrB/?utm_source=ig_web_copy_link");
-  window.open("https://www.instagram.com/p/CRvXXtkFIrB/?utm_source=ig_web_copy_link");
   window.open("https://www.instagram.com/p/CRvXXtkFIrB/?utm_source=ig_web_copy_link");
 }
